@@ -1,0 +1,75 @@
+
+<-----------CRUD OPERATION IN MYSQL------------------>
+
+Database Name - Orange
+Table Name - OrangeEmp
+
+1) Create
+2) Read
+3) Update
+4) Delete
+
+---------------------------------------------------------->
+Create Database:-
+---------------------------------------------------------->
+
+1)CREATE DATABSE Orange
+
+2)Use Orange
+
+3)CREATE TABLE Table_NAME;
+
+4)Describe Table_NAME;
+
+5)
+
+
+1) Create------------------------------->
+
+Synatx:---
+---------------->
+
+Insert Into table_name(column1, column2, column3)
+values(value1, value2, value3).
+
+Insert into OrangeEmp(name,position,salary)
+ values('Vikram','FrontEnd Developer', 25000),
+ ('Gaurav','Java Developer', 30000),
+ ('Yoglesh','Backend Developer', 23000).
+ 
+2) Read-------------------------------->
+
+Syntax:---
+------------------->
+Select * from Table_NAME ----> (to see all the data of Table).
+
+Select * from Table_NAME where position = "software Developer".
+
+Select * from OrangeEmp
+
+select * from OrangeEmp where position = "software Developer"
+
+3) Update------------------------------>
+
+Synatx:---
+--------------------->
+UPDATE table_name
+SET column1 = value1, column2 = value2, 
+WHERE condition;
+
+UPDATE OrangeEmp SET salary = 75000 WHERE name = 'Gaurav'    -----> (Updated Salary of Gaurav)
+
+4) Delete------------------------------>
+
+syantax:---
+--------------------->
+DELETE FROM table_name
+WHERE condition;
+
+DELETE FROM OrangeEmp
+WHERE id= 1;   -----------------> (Deleted ID 1 data from database which is vikram)
+
+
+
+
+
